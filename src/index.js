@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "bootstrap/dist/css/bootstrap.css";
-import Top from "./components/heading";
+import "../node_modules/@mdi/font/css/materialdesignicons.min.css";
+import "../node_modules/materialize-css/dist/css/materialize.min.css";
+import "../node_modules/materialize-css/dist/js/materialize.min.js";
+import "./styles/styles.scss";
+import App from "./App.js";
 
-ReactDOM.render(<Top />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
